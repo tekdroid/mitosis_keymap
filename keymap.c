@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                    cursor keys on left hand, and all symbols*/
   {KC_COLON,  KC_UNDERSCORE, KC_QUESTION, KC_MINS, KC_EQL,        KC_RBRC, KC_PAST, KC_PPLS, KC_PMNS, KC_LBRC },
   {KC_QUOTE,  LSFT(KC_9), LSFT(KC_0), LSFT(KC_LBRACKET), LSFT(KC_RBRACKET),                   KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_BSLS },
-  {LSFT(KC_COMMA),  LSFT(KC_DOT), LSFT(KC_QUOTE), LSFT(KC_BSLASH), _______,           _______,       _______,   _______,          _______, _______ },
+  {LSFT(KC_COMMA),  LSFT(KC_DOT), LSFT(KC_QUOTE), LSFT(KC_BSLASH), LSFT(KC_GRAVE),           _______,       _______,   _______,          _______, _______ },
   {XXXXXXX, KC_VOLU, _______, _______,  _______,                   _______,       _______,        _______,        KC_PGUP,  XXXXXXX },
   {XXXXXXX, KC_VOLD, _______, _______, _______,                 _______,       _______,       _______,       KC_END,   XXXXXXX }
 },
